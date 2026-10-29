@@ -1,0 +1,21 @@
+# dependencies
+/node_modules
+
+# env
+/.env
+/.env*.local
+
+# public: track folder, ignore PDFs (resume etc.)
+/public/**/*.pdf
+
+# next.js build output
+/.next
+/out
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# logs / os
+npm-debug.log*
+.DS_Store
